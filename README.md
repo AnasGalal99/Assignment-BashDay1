@@ -33,3 +33,4 @@ echo "Task7" >> results.txt
 
 awk -F: '{sum += $4} END {print sum}' /etc/passwd >> results.txt
 
+
