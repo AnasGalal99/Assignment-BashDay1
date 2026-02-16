@@ -1,4 +1,4 @@
-$$ 1. Display all lines from /etc/passwd that contain the word "bash"
+## 1. Display all lines from /etc/passwd that contain the word "bash"
 echo "Task1" > results.txt
 
 grep "bash" /etc/passwd >> results.txt
@@ -32,3 +32,4 @@ awk 'NR>=10 && NR<=20 {print NR, $0}' /etc/passwd >> results.txt
 echo "Task7" >> results.txt
 
 awk -F: '{sum += $4} END {print sum}' /etc/passwd >> results.txt
+
